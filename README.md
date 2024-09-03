@@ -1,5 +1,7 @@
 # ECE-4305 Lab 1
-
+## Some Notes
+- I kept the entire Vivado folder intact just in case I want to download the whole project to open up.
+- If you just want the designs and simulations, you can get them in the respective Simulations and Designs folder at the top level of this repo. 
 ## Images
 
 ### Left and Right Shifter Separate (4'b1001)
