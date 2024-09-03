@@ -1,0 +1,4 @@
+Running: xsim.dir/test_combined_multi_barrel_shifter_mux_and_reverser_behav/xsimk -simmode gui -wdb test_combined_multi_barrel_shifter_mux_and_reverser_behav.wdb -simrunnum 0 -socket 42773
+Design successfully loaded
+Design Loading Memory Usage: 20024 KB (Peak: 20488 KB)
+Design Loading CPU Usage: 30 ms

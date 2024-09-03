@@ -1,0 +1,4 @@
+Running: xsim.dir/test_combined_separate_left_and_right_shifter_behav/xsimk -simmode gui -wdb test_combined_separate_left_and_right_shifter_behav.wdb -simrunnum 0 -socket 35299
+Design successfully loaded
+Design Loading Memory Usage: 20016 KB (Peak: 20488 KB)
+Design Loading CPU Usage: 30 ms

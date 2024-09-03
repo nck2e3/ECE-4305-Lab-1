@@ -1,0 +1,24 @@
+Vivado Simulator v2024.1.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/ncking/Programs/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_combined_multi_barrel_shifter_mux_and_reverser_behav xil_defaultlib.test_combined_multi_barrel_shifter_mux_and_reverser xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'shift' [/home/ncking/ECE-4305_Lab-1/ECE-4305_Lab-1.srcs/sources_1/new/multi_barrel_shifter_mux.sv:36]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'shift' [/home/ncking/ECE-4305_Lab-1/ECE-4305_Lab-1.srcs/sources_1/new/multi_barrel_shifter_mux.sv:43]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'shift' [/home/ncking/ECE-4305_Lab-1/ECE-4305_Lab-1.srcs/sources_1/new/multi_barrel_shifter_reverser.sv:43]
+WARNING: [VRFC 10-3091] actual bit length 4 differs from formal bit length 2 for port 'shift' [/home/ncking/ECE-4305_Lab-1/ECE-4305_Lab-1.srcs/sources_1/new/multi_barrel_shifter_reverser.sv:54]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.param_right_shifter
+Compiling module xil_defaultlib.param_left_shifter
+Compiling module xil_defaultlib.param_mux(width_select=1,width_i...
+Compiling module xil_defaultlib.multi_barrel_shifter_mux(width=2...
+Compiling module xil_defaultlib.param_reverser(width=4)
+Compiling module xil_defaultlib.multi_barrel_shifter_reverser
+Compiling module xil_defaultlib.test_combined_multi_barrel_shift...
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot test_combined_multi_barrel_shifter_mux_and_reverser_behav

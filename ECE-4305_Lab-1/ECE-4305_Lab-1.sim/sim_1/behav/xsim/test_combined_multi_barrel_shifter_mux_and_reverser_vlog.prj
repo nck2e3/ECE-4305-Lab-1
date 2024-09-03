@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ECE-4305_Lab-1.srcs/sources_1/new/param_reverser.v" \
+
+sv xil_defaultlib  \
+"../../../../ECE-4305_Lab-1.srcs/sources_1/new/multi_barrel_shifter_mux.sv" \
+"../../../../ECE-4305_Lab-1.srcs/sources_1/new/multi_barrel_shifter_reverser.sv" \
+"../../../../ECE-4305_Lab-1.srcs/sources_1/new/param_left_shifter.sv" \
+"../../../../ECE-4305_Lab-1.srcs/sources_1/new/param_mux.sv" \
+"../../../../ECE-4305_Lab-1.srcs/sources_1/new/param_right_shifter.sv" \
+"../../../../ECE-4305_Lab-1.srcs/sim_1/new/test_combined_multi_barrel_shifter_mux_and_reverser.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
