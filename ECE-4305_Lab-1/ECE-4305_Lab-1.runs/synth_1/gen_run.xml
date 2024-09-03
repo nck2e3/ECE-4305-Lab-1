@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1725381011" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/param_right_shifter.dcp">
-  <File Type="VDS-TIMINGSUMMARY" Name="multi_barrel_shifter_mux_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1725381011" LaunchIncrCheckpoint="$PPRDIR/../../../ECE-4305_Lab-1/ECE-4305_Lab-1.srcs/utils_1/imports/synth_1/param_right_shifter.dcp">
   <File Type="RDS-DCP" Name="multi_barrel_shifter_mux.dcp"/>
   <File Type="RDS-UTIL-PB" Name="multi_barrel_shifter_mux_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="multi_barrel_shifter_mux_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="multi_barrel_shifter_mux_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="multi_barrel_shifter_mux.vds"/>
-  <File Type="REPORTS-TCL" Name="multi_barrel_shifter_mux_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="multi_barrel_shifter_mux_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="multi_barrel_shifter_mux.tcl"/>
+  <File Type="RDS-UTIL" Name="multi_barrel_shifter_mux_utilization_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="multi_barrel_shifter_mux_reports.tcl"/>
+  <File Type="RDS-RDS" Name="multi_barrel_shifter_mux.vds"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/param_left_shifter.sv">
@@ -62,7 +59,7 @@
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PPRDIR/../Downloads/Nexys-A7-100T-Master.xdc">
+    <File Path="$PPRDIR/../../../Downloads/Nexys-A7-100T-Master.xdc">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="67" Path="/home/ncking/ECE-4305_Lab-1/ECE-4305_Lab-1.xpr">
+<Project Product="Vivado" Version="7" Minor="67" Path="/home/ncking/Projects/ECE-4305-Lab-1/ECE-4305_Lab-1/ECE-4305_Lab-1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="4b35d821469a404f9e0c0107913416b4"/>
@@ -148,7 +148,7 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../Downloads/Nexys-A7-100T-Master.xdc">
+      <File Path="$PPRDIR/../../../Downloads/Nexys-A7-100T-Master.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
